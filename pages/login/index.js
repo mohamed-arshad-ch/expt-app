@@ -2,7 +2,8 @@ import LoginScreen from "@/components/login-screen";
 
 
 
-export default function Home() {
+
+export default function Login() {
   return (
    <LoginScreen/>
   );
