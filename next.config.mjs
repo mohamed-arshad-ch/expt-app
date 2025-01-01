@@ -1,9 +1,6 @@
-import withPWA from "next-pwa";
-
-const nextConfig = withPWA({
-  dest: "public", // Output folder for service worker files
-  register: true,
-  skipWaiting: true,
-});
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+};
 
 export default nextConfig;
